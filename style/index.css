@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    margin-left: 230px;
+}
+
+    .header{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+        border: 1px solid #ececec;
+        background-color: #ffffff;
+    }
+
+        .header_flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            margin-top: 25px;
+        }
+
+        .logoText{
+            color: #222222;
+            display: flex;
+            font-size: 27px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 32px;
+            text-transform: uppercase;
+            letter-spacing: 0.68px;
+            margin-left: 13px;
+            margin-top: 38px;
+        }
+            .logoText_add{
+                color: #f16d7f;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: 0.68px;
+            }
+        
+        .search{
+            margin-left: 38px;
+            display: flex;
+        }
+
+            .browse{
+                width: 87px;
+                height: 38px;
+                border-radius: 3px 0 0 3px;
+                border: 1px solid #e6e6e6;
+                background-color: #cdcdcc;
+                background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+                margin-top: 32px;
+                color: #838383;
+                font-size: 14px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 32px;
+                text-indent: 10px;
+                font-family: Lato;            
+            }
+
+            .browse::after {
+                content: '\25BC';
+                padding-left: 0.5em;
+                font-family: Lato;
+                font-size: 12px;
+                line-height: 35px;
+                color: #838383;
+                padding-top: 5px;
+            }
+
+            .input{
+                width: 317px;
+                height: 40px;
+                border: 1px solid #e6e6e6;
+                background-color: #ffffff;
+                text-indent: 5px;
+                margin-top: 32px;
+                margin-left: -1px;
+            }
+
+            .button{
+                width: 40px;
+                height: 40px;
+                border-radius: 0 3px 3px 0;
+                border: 1px solid #e6e6e6;
+                background-color: #ffffff;
+                margin-left: -4px;
+                margin-top: 32px;
+            }
+
+                #button_font{
+                    color: #a4a4a4;
+                }
+            
+            .shopBasket{
+                margin-left: 349px;
+                padding-top: 28px;
+            }
+
+        .account{
+            width: 130px;
+            height: 38px;
+            background-color: #f16d7f;
+            margin-top: 31px;
+            margin-left: 26px;
+        }
+
+            .account_text{
+                color: #ffffff;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 32px;
+                text-align: center;
+                padding-top: 2px;
+            }
+
+            .account_text::after {
+                content: '\25BC';
+                padding-left: 0.5em;
+                /* color: #222222; */
+                font-family: Lato;
+                font-size: 12px;
+                line-height: 35px;
+            }
+
+            
