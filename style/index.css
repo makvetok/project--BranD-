@@ -249,6 +249,7 @@ body {
 
         .products_iconTop{
             margin-top: 60px;
+            display: flex;
             
         }
 
@@ -262,8 +263,109 @@ body {
         
         .products_iconBottom{
             margin-top: 60px;
+            display: flex;
         }
 
             .products_cardBottom:not(:first-child){
                 padding-left: 30px;
             }
+
+            .products_name{
+                color: #222222;
+                /* font-family: Lato; */
+                font-size: 13px;
+                font-weight: 400;
+                /* font-style: normal; */
+                letter-spacing: normal;
+                /* line-height: normal; */
+                /* text-align: center; */
+                text-transform: uppercase;
+                margin-top: 17px;
+                padding-left: 14px;
+            }
+
+            .products_price{
+                color: #f16d7f;
+                /* font-family: Lato; */
+                font-size: 16px;
+                font-weight: 700;
+                /* font-style: normal; */
+                letter-spacing: normal;
+                /* line-height: normal; */
+                /* text-align: center; */
+                text-transform: uppercase;
+                margin-top: 14px;
+                padding-left: 14px;
+            }
+
+            .products_button{
+                width: 212px;
+                height: 48px;
+                background-color: #f16d7f;
+                appearance: none;
+                border: 0;
+                border-radius: 0;
+                padding: 8px 16px;
+                color: #ffffff;
+                /* font-family: Lato; */
+                font-size: 16px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                /* line-height: 54px; */
+                text-align: center;
+                /* margin-right: 9px; */
+                margin-top: 80px;
+                /* display: flex */
+                /* align-items: center; */
+                margin-left: 816px;
+            }
+
+                .arrow_right{
+                    margin-left: 9px;
+                }
+
+    .discount{
+        display: flex;
+        /* position: relative; */
+        margin-top: 130px;
+
+    }
+
+        .banner{
+            width: 767px;
+            height: 529px;
+            background-image: url(../image/banner.jpg);
+            /* display: flex; */
+            /* position: absolute; */
+        }
+
+            .banner_text{
+                color: #ffffff;
+                /* font-family: Lato; */
+                font-size: 54px;
+                font-weight: 700;
+                /* font-style: normal; */
+                /* letter-spacing: normal; */
+                /* line-height: normal; */
+                /* text-align: left; */
+                text-transform: uppercase;
+            }
+
+                .banner_highlight{
+                    color: #f16d7f;
+                }
+                
+                .banner_gender{
+                    font-size: 32px;
+                }
+
+        .advantages{
+            width: 373px;
+            height: 529px;
+            background-color: #222224;
+            /* position: absolute;
+            left: 1149px; */
+        }
+    
+    
