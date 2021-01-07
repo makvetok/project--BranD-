@@ -350,6 +350,9 @@ body {
                 /* line-height: normal; */
                 /* text-align: left; */
                 text-transform: uppercase;
+                padding-top: 146px;
+                line-height: 46px;
+                padding-left: 40px;
             }
 
                 .banner_highlight{
@@ -367,5 +370,62 @@ body {
             /* position: absolute;
             left: 1149px; */
         }
+
+            .delivery{
+                display: flex;
+                margin-left: 36px;
+            }
+
+                .delivery_text{
+                    margin-top: 55px;
+                    margin-left: 33px;
+                }
+
+                    .advantages_h3{
+                        color: #fbfbfb;
+                        font-size: 20px;
+                        font-weight: 700;
+                        /* font-style: normal; */
+                        /* letter-spacing: normal; */
+                        /* line-height: normal; */
+                        /* text-align: left; */
+                    }
+
+                    .description{
+                        color: #fbfbfb;
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-weight: 300;
+                        font-style: normal;
+                        /* letter-spacing: normal; */
+                        line-height: 24px;
+                        margin-top: 7px;
+                    }
+
+            .sale{
+                display: flex;
+                margin-left: 36px;
+            }
+
+                .sale_text{
+                    margin-top: 62px;
+                    margin-left: 33px;
+                }
+
+            .quality{
+                display: flex;
+                margin-left: 36px;
+            }
+
+                .quality_text{
+                    margin-top: 61px;
+                    margin-left: 33px;
+                }
+
+    .extra{
+        margin-top: 100px;
+    }
     
-    
+        .extra_img{
+            margin-left: 10px;
+        }
